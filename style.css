@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito:wght@300&family=Ubuntu&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+.font{
+    font-family:'Ubuntu', sans-serif;
+}
+#hash{
+    display: none;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    position:relative;
+    top:0px;
+}
+#image{
+    margin: 4px 56px;
+    width:70%;
+}
+#image img{
+        height: 70px;
+        margin: 3px 4px;
+        border-radius: 6px;
+}
+
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+   content:"";
+   background-color: white;
+   position:absolute;
+   top: 0px;
+   left:0px;
+   height:100%;
+   width:100%;
+   z-index:-1;
+   opacity:0.4;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color:black;
+    display: block;
+    padding:3px 30px;
+    align-items:right; 
+    border-radius: 20px;
+    float:right;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+#navbar ul li a:hover{
+    color:#f93939;
+}
+.items{
+    left:0px;
+}
+#home{
+    display:flex;
+    flex-direction: column;
+    padding:45px 200px;
+    justify-content:top;
+    align-items: center;
+}
+#home::before{
+    content:"";
+    background: url('Rectangle\ 48.png') no-repeat center center/cover;
+    position:absolute;
+    top:100px;
+    height:80vh;
+    width:98.8vw;
+    z-index:-1;
+    opacity:0.89;
+}
+#home h3{
+    top:10px;
+    color:white;
+    font-weight:bold;
+    margin:20px;
+    margin-bottom:0px;
+    font-size:28px;
+}
+#home h1{
+    color:white;
+    font-weight:bolder;
+    margin:20px;
+    font-size: 2.8rem;
+    text-align:center;
+}
+#home p{
+    color:white;
+    margin:20px;
+    text-align:center;
+    font-size: 1.5rem;
+}
+.button{
+   display:flex;
+   margin:20px; 
+}
+.btn {
+    margin:10px;
+    padding:10px 40px;
+    border:2px solid white;
+    border-radius:20px;
+    color:white;
+    background-color:black;
+    font-size:1rem;
+    font-weight:bold;
+    cursor:pointer; 
+}
+
+.btn:hover{
+    padding:10px 40px;
+    margin:10px;
+    border: 2px solid white;
+    background-color: #f93939;
+    color: white;
+    font-size: 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#picture{
+    display:flex;
+    height:400px;
+    align-items:center;
+    justify-content: center; 
+}
+
+.picture {
+   position:absolute;
+   margin-right:20vh;
+  margin-top: 310px; 
+}
+
+.pictures{
+    position:absolute;
+    margin-left:277px; 
+    margin-top: 330px;
+}
+.hline{
+    width:4px;
+    background-color:black;
+    border: 1px solid black;
+    position:absolute;
+    width:60vw;
+    top:1300px ;
+    left:20vw ;
+}
+
+#heading{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-top:400px;
+}
+#heading h2{
+    font-size:2rem;
+}
+#app{
+    display:flex;
+    height:600px;
+}
+
+#headings{ 
+    margin-top:300px;
+    height:150px;
+    margin-left:200px;
+}
+
+#headings h3{
+    color:#f93939;
+    margin:15px;
+}
+
+#headings h2{
+    margin:15px;
+    font-size:2rem;
+}
+
+#headings p{
+    margin:15px;
+}
+
+#explore{
+    height:600px;
+}
+
+.shop img{
+   position:absolute;
+   margin-left:735px;
+   top:1994px;
+}
+
+#content{
+    margin-top:283px;
+    margin-left:150px;
+    height:150px;
+}
+
+#content h3{
+    color:#f93939;
+    margin:15px;
+}
+
+#content h2{
+    margin:15px;
+    font-size:2rem;
+}
+
+#content p{
+    margin:15px;
+}
+
+#payment{
+     height:460px; 
+}
+
+.checkout img{
+    position:absolute;
+    top:2570px; 
+}
+
+.Delivery{
+    position:relative;
+    margin-left:800px; 
+}
+
+.Delivery h3{
+    color:#f93939;
+    margin:15px;
+}
+
+.Delivery h2{
+    margin:15px;
+    font-size:2rem;
+}
+
+.Delivery p{
+    margin:15px;
+}
+#last{
+    color:white;
+}
+#last::before{
+    content:"";
+    background: url('Rectangle\ 47.png') no-repeat center center/cover;
+    position:absolute;
+    left:0px;
+    height:65vh;
+    width:98.8vw;
+    z-index:-1;
+    opacity:0.9;
+    margin-right:0px;
+}
+#last h3{
+    font-weight: lighter;
+}
+#last h1{
+    font-size: 2.9rem;
+    margin-bottom: 6px;
+}
+.last{
+    padding:132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#btn1 {
+    margin:10px;
+    padding:10px 40px;
+    border:2px solid white;
+    border-radius:20px;
+    color:white;
+    background-color:black;
+    font-size:1rem;
+    font-weight:bold;
+    cursor:pointer; 
+}
+
+#btn1:hover{
+    padding:10px 40px;
+    margin:10px;
+    border: 2px solid white;
+    background-color: #f93939;
+    color: white;
+    font-size: 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px;
+}
+#mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mid img{
+    margin:8px;
+    padding:4px;
+}
